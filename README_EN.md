@@ -36,7 +36,7 @@ public function fields(Request $request)
 
 ```
 
-You also can use the label/campo:
+You also can use the format label/label:
 
 ```
 NovaToggleOnTable::make('Active', 'active')
@@ -44,7 +44,7 @@ NovaToggleOnTable::make('Active', 'active')
 
 ## Translation
 
-The field use the translation file in Laravel Nova, in`resources/lang/vendor/nova/en.json`, you can translate direct ou creating other prefix, according to the default format of Laravel.
+The field use the translation file in Laravel Nova, in`resources/lang/vendor/nova/en.json`, you can translate direct or creating another prefix, according to the default format of Laravel.
 
 To translate the 'loading' text, just edit:
 
